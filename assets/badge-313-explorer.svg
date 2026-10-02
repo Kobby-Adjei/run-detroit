@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="313 Explorer badge">
+  <defs>
+    <linearGradient id="g313-explorer" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F5D68A"/><stop offset="1" stop-color="#B5842A"/></linearGradient>
+    <linearGradient id="s313-explorer" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".48"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#g313-explorer)"/>
+  <circle cx="60" cy="60" r="54" fill="url(#s313-explorer)"/>
+  <circle cx="60" cy="60" r="45.5" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 6"/>
+  <g transform="translate(60 60) scale(0.2) translate(-128 -128)" fill="#fff"><path d="M24 224V96l56-30v158Z"/><path d="M88 224V48l72-24v200Z" opacity=".85"/><path d="M168 224v-96l64 22v74Z" opacity=".7"/><rect x="14" y="220" width="228" height="16" rx="8"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Court Hopper badge">
+  <defs>
+    <linearGradient id="gcourt-hopper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7FA8FF"/><stop offset="1" stop-color="#0B2348"/></linearGradient>
+    <linearGradient id="scourt-hopper" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".48"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#gcourt-hopper)"/>
+  <circle cx="60" cy="60" r="54" fill="url(#scourt-hopper)"/>
+  <circle cx="60" cy="60" r="45.5" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 6"/>
+  <g transform="translate(60 60) scale(0.2) translate(-128 -128)" fill="#fff"><path d="M84 16a44 44 0 0 1 44 44c0 30-44 72-44 72S40 90 40 60A44 44 0 0 1 84 16Zm0 30a14 14 0 1 0 0 28 14 14 0 0 0 0-28Z"/><path d="M172 116a44 44 0 0 1 44 44c0 30-44 80-44 80s-44-50-44-80a44 44 0 0 1 44-44Zm0 30a14 14 0 1 0 0 28 14 14 0 0 0 0-28Z" opacity=".72"/></g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Community MVP badge">
+  <defs>
+    <linearGradient id="gcommunity-mvp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C99BFF"/><stop offset="1" stop-color="#5B2C93"/></linearGradient>
+    <linearGradient id="scommunity-mvp" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".48"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#gcommunity-mvp)"/>
+  <circle cx="60" cy="60" r="54" fill="url(#scommunity-mvp)"/>
+  <circle cx="60" cy="60" r="45.5" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 6"/>
+  <g transform="translate(60 60) scale(0.2) translate(-128 -128)" fill="#fff"><path d="M96 40a28 28 0 1 1-56 0 28 28 0 0 1 56 0Zm-28 40c-30 0-54 20-54 45a9 9 0 0 0 9 9h66a72 72 0 0 1 22-45A66 66 0 0 0 68 80Z"/><path d="M216 40a28 28 0 1 1-56 0 28 28 0 0 1 56 0Zm-28 40a66 66 0 0 0-43 9 72 72 0 0 1 22 45h66a9 9 0 0 0 9-9c0-25-24-45-54-45Z" opacity=".78"/><path d="M128 112a30 30 0 1 1 0 60 30 30 0 0 1 0-60Zm0 70c33 0 60 22 60 46a9 9 0 0 1-9 9H77a9 9 0 0 1-9-9c0-24 27-46 60-46Z"/></g>
+</svg>

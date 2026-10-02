@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Hot Hand badge">
+  <defs>
+    <linearGradient id="ghot-hand" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8A3D"/><stop offset="1" stop-color="#C8102E"/></linearGradient>
+    <linearGradient id="shot-hand" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".48"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#ghot-hand)"/>
+  <circle cx="60" cy="60" r="54" fill="url(#shot-hand)"/>
+  <circle cx="60" cy="60" r="45.5" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="2" stroke-dasharray="4 6"/>
+  <g transform="translate(60 60) scale(0.2) translate(-128 -128)" fill="#fff"><path d="M128 20c4 0 44 33 44 74a44 44 0 1 1-88 0C84 53 124 20 128 20Zm0 79c-2 0-19 15-19 30a19 19 0 0 0 38 0c0-15-17-30-19-30Z"/></g>
+</svg>

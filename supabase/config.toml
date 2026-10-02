@@ -1,0 +1,14 @@
+project_id = "ztnvfgovfaqfolnaujym"
+
+[auth]
+enabled = true
+site_url = "https://run-detroit.vercel.app"
+additional_redirect_urls = ["http://localhost:8123", "http://localhost:3000"]
+jwt_expiry = 3600
+enable_signup = true
+enable_anonymous_sign_ins = true
+
+[auth.email]
+enable_signup = true
+enable_confirmations = false
+double_confirm_changes = true

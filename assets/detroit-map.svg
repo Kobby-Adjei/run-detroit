@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" role="img" aria-label="Stylized map of Detroit">
+  <defs>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F5F9"/><stop offset="1" stop-color="#E3E9F1"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#AECBE8"/><stop offset="1" stop-color="#8FB4DA"/>
+    </linearGradient>
+    <linearGradient id="park" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CFE3D2"/><stop offset="1" stop-color="#BBD7C1"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#D5DEEA" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="360" height="280" fill="url(#land)"/>
+  <rect width="360" height="280" fill="url(#grid)" opacity=".85"/>
+
+  <!-- Parks -->
+  <g fill="url(#park)">
+    <path d="M22 96h44v54H22z" rx="4"/>
+    <path d="M148 34h46v34h-46z"/>
+    <path d="M262 150h56v40h-56z"/>
+    <path d="M96 196h40v30H96z"/>
+  </g>
+
+  <!-- Radial avenues out of downtown (bottom right) -->
+  <g stroke="#C6D1E0" stroke-width="3.5" fill="none" stroke-linecap="round">
+    <path d="M304 226 L150 40"/>
+    <path d="M304 226 L92 96"/>
+    <path d="M304 226 L14 176"/>
+    <path d="M304 226 L338 52"/>
+  </g>
+  <g stroke="#FFFFFF" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".9">
+    <path d="M304 226 L150 40"/>
+    <path d="M304 226 L92 96"/>
+    <path d="M304 226 L14 176"/>
+  </g>
+
+  <!-- 8 Mile / freeway bands -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M0 26H360" stroke="#CBD5E3" stroke-width="5"/>
+    <path d="M0 26H360" stroke="#F7B733" stroke-width="1.6" opacity=".75"/>
+    <path d="M0 140C70 132 120 152 176 168 232 184 300 176 360 158" stroke="#CBD5E3" stroke-width="5"/>
+  </g>
+
+  <!-- Detroit River -->
+  <path d="M0 262C64 246 126 252 186 268 236 281 312 276 360 256V280H0Z" fill="url(#water)"/>
+  <path d="M0 262C64 246 126 252 186 268 236 281 312 276 360 256" fill="none" stroke="#FFFFFF" stroke-width="1.4" opacity=".55"/>
+  <!-- Belle Isle -->
+  <ellipse cx="292" cy="264" rx="26" ry="8" fill="#DDE8DA" stroke="#FFFFFF" stroke-width="1.2"/>
+</svg>
