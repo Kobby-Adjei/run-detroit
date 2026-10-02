@@ -5,6 +5,8 @@ neighborhood court, explore the city, and earn Pistons Points — inside the app
 
 **Live: https://run-detroit.vercel.app**
 
+The pitch deck that goes with it is in [`deck/run-detroit-pitch.pptx`](deck/run-detroit-pitch.pptx) — nine slides covering the problem, the fan journey, the pilot and its point policy, the verification model and the ask.
+
 Run it locally with `python3 -m http.server 8000`, or open `index.html` directly (accounts and
 map tiles need a network connection).
 
